@@ -1,0 +1,16 @@
+{
+    "segment": {
+        "memory_mb": 500,
+        "storage_gb": 2,
+        "price": { 
+            "gbp": 50
+        }
+    },
+    "regions": {
+        "gb": {
+            "name": "United Kingdom",
+            "region": "Europe",
+            "price_multiplier": 1
+        }
+    }
+}
