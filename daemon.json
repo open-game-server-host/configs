@@ -1,5 +1,5 @@
 {
-    "port": 80,
+    "port": 8080,
     "app_archives_path": "/home/daemon/app_archives",
     "container_files_path": "/home/daemon/container_files"
 }
