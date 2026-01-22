@@ -1,6 +1,6 @@
 {
     "segment": {
-        "cpu_percent": 75,
+        "max_cpus": 0.75,
         "memory_mb": 500,
         "storage_gb": 2,
         "price": { 
