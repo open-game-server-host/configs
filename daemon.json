@@ -3,5 +3,6 @@
     "app_archives_path": "/home/daemon/app_archives",
     "container_files_path": "/home/daemon/container_files",
     "stop_seconds_timeout": 120,
-    "runtime_images_branch": "main"
+    "runtime_images_branch": "main",
+    "runtime_images_repo": "ghcr.io/open-game-server-host/container-runtimes/"
 }
