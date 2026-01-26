@@ -1,7 +1,7 @@
 {
     "port": 8080,
-    "app_archives_path": "/home/daemon/app_archives",
-    "container_files_path": "/home/daemon/container_files",
+    "app_archives_path": "app_archives",
+    "container_files_path": "container_files",
     "stop_seconds_timeout": 120,
     "runtime_images_branch": "main",
     "runtime_images_repo": "ghcr.io/open-game-server-host/container-runtimes/"
