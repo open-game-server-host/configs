@@ -4,5 +4,6 @@
     "container_files_path": "container_files",
     "stop_seconds_timeout": 120,
     "runtime_images_branch": "main",
-    "runtime_images_repo": "ghcr.io/open-game-server-host/container-runtimes/"
+    "runtime_images_repo": "ghcr.io/open-game-server-host/container-runtimes/",
+    "app_installer_image": "ghcr.io/open-game-server-host/app-installer-image/install:main"
 }
