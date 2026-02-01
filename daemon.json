@@ -5,7 +5,6 @@
     "startup_files_path": "startup_files",
     "stop_seconds_timeout": 120,
     "runtime_images_branch": "main",
-    "runtime_images_repo": "ghcr.io/open-game-server-host/container-runtimes/",
     "app_installer_image": "ghcr.io/open-game-server-host/app-installer-image/install:main",
     "previous_logs_to_show_on_connect": 30,
     "websocket_event_push_frequency_ms": 1000,
