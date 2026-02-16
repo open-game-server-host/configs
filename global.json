@@ -14,6 +14,6 @@
             "price_multiplier": 1
         }
     },
-    "app_archive_url": "192.168.0.176:9001",
+    "app_archive_url": "192.168.0.74:9001",
     "docker_registry_url": "ghcr.io/open-game-server-host"
 }
