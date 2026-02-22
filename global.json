@@ -1,8 +1,8 @@
 {
     "segment": {
-        "max_cpus": 0.75,
-        "memory_mb": 500,
-        "storage_gb": 2,
+        "maxCpus": 0.75,
+        "memoryMb": 500,
+        "storageGb": 2,
         "price": { 
             "gbp": 50
         }
@@ -11,9 +11,9 @@
         "gb": {
             "name": "United Kingdom",
             "region": "Europe",
-            "price_multiplier": 1
+            "priceMultiplier": 1
         }
     },
-    "app_archive_url": "192.168.0.74:9001",
-    "docker_registry_url": "ghcr.io/open-game-server-host"
+    "appArchiveUrl": "192.168.0.74:9001",
+    "dockerRegistryUrl": "ghcr.io/open-game-server-host"
 }

@@ -1,12 +1,12 @@
 {
     "port": 8080,
-    "app_archives_path": "app_archives",
-    "container_files_path": "container_files",
-    "startup_files_path": "startup_files",
-    "stop_seconds_timeout": 120,
-    "runtime_images_branch": "main",
-    "app_installer_image": "ghcr.io/open-game-server-host/app-installer-image/install:main",
-    "previous_logs_to_show_on_connect": 30,
-    "websocket_event_push_frequency_ms": 1000,
-    "max_websocket_connections_per_container_per_user": 3
+    "appArchivesPath": "app_archives",
+    "containerFilesPath": "container_files",
+    "startupFilesPath": "startup_files",
+    "stopSecondsTimeout": 120,
+    "runtimeImagesBranch": "main",
+    "appInstallerImage": "ghcr.io/open-game-server-host/app-installer-image/install:main",
+    "previousLogsToShowOnConnect": 30,
+    "websocketEventPushFrequencyMs": 1000,
+    "maxWebsocketConnectionsPerContainerPerUser": 3
 }
