@@ -1,4 +1,4 @@
 {
-    "url": "http://192.168.0.74:8080",
-    "websocketUrl": "ws://192.168.0.74:8080"
+    "url": "https://api.opengameserverhost.com",
+    "websocketUrl": "wss://api.opengameserverhost.com"
 }
