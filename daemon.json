@@ -8,5 +8,6 @@
     "appInstallerImage": "ghcr.io/open-game-server-host/app-installer-image/install:main",
     "previousLogsToShowOnConnect": 30,
     "websocketEventPushFrequencyMs": 1000,
-    "maxWebsocketConnectionsPerContainerPerUser": 3
+    "maxWebsocketConnectionsPerContainerPerUser": 3,
+    "websocketReconnectSeconds": 3
 }
