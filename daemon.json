@@ -9,5 +9,6 @@
     "previousLogsToShowOnConnect": 30,
     "websocketEventPushFrequencyMs": 1000,
     "maxWebsocketConnectionsPerContainerPerUser": 3,
-    "websocketReconnectSeconds": 3
+    "websocketReconnectSeconds": 3,
+    "containerActionQueueMaxLength": 3
 }
