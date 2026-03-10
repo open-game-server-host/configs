@@ -11,5 +11,6 @@
     "maxWebsocketConnectionsPerContainerPerUser": 3,
     "websocketReconnectSeconds": 3,
     "containerActionQueueMaxLength": 3,
-    "cooldownSecondsBetweenDockerImagePull": 60
+    "cooldownSecondsBetweenDockerImagePull": 60,
+    "maxSimultaneousContainerInstalls": 2
 }
