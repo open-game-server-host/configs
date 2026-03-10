@@ -10,5 +10,6 @@
     "websocketEventPushFrequencyMs": 1000,
     "maxWebsocketConnectionsPerContainerPerUser": 3,
     "websocketReconnectSeconds": 3,
-    "containerActionQueueMaxLength": 3
+    "containerActionQueueMaxLength": 3,
+    "cooldownSecondsBetweenDockerImagePull": 60
 }
