@@ -1,5 +1,6 @@
 {
     "url": "https://api.opengameserverhost.com",
     "websocketUrl": "wss://api.opengameserverhost.com",
-    "maxWebsocketConnectionsPerUserPerContainer": 3
+    "maxWebsocketConnectionsPerUserPerContainer": 3,
+    "maxPaginatedResults": 10
 }
