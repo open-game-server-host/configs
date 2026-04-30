@@ -15,6 +15,6 @@
             "priceMultiplier": 1
         }
     },
-    "appArchiveUrl": "192.168.0.74:9001",
+    "appArchiveUrl": "192.168.1.94:8080",
     "dockerRegistryUrl": "ghcr.io/open-game-server-host"
 }
