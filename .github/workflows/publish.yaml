@@ -20,4 +20,3 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.OGSH_CONFIG_S3_SECRET_ACCESS_KEY }}
       run: |
         aws s3 sync ./configs s3://$BUCKET --delete --endpoint-url $ENDPOINT
-      # aws s3 ls --endpoint-url $ENDPOINT
