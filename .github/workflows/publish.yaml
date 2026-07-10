@@ -19,6 +19,7 @@ jobs:
         ACCESS_KEY_ID: ${{ secrets.OGSH_CONFIG_S3_ACCESS_KEY_ID }}
         SECRET_ACCESS_KEY: ${{ secrets.OGSH_CONFIG_S3_SECRET_ACCESS_KEY }}
       run: |
+        mkdir ~/.aws
         touch ~/.aws/config
         echo "[profile configs]" >> ~/.aws/config
         echo "endpoint_url = $ENDPOINT" >> ~/.aws/config
