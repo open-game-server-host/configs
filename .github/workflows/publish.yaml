@@ -15,11 +15,7 @@ jobs:
       env:
         BUCKET: ${{ secrets.OGSH_CONFIG_S3_BUCKET }}
         ENDPOINT: ${{ secrets.OGSH_CONFIG_S3_ENDPOINT }}
-        REGION: ${{ secrets.OGSH_CONFIG_S3_REGION }}
+        AWS_DEFAULT_REGION: ${{ secrets.OGSH_CONFIG_S3_REGION }}
         AWS_ACCESS_KEY_ID: ${{ secrets.OGSH_CONFIG_S3_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.OGSH_CONFIG_S3_SECRET_ACCESS_KEY }}
-      run: |
-        echo bucket: ${#BUCKET}
-        echo region: ${#REGION}
-        echo endpoint: ${#ENDPOINT}
-        aws s3 sync ./configs s3://$BUCKET --delete --region $REGION --endpoint-url $ENDPOINT
+      run: aws s3 sync ./configs s3://$BUCKET --delete --endpoint-url $ENDPOINT
