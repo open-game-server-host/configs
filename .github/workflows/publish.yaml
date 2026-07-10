@@ -11,16 +11,11 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v7
-    # - name: Install AWS CLI
-    #   run: |
-    #     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    #     unzip awscliv2.zip
-    #     ./aws/install
-    - name: Sync configs
+    - name: Sync configs # AWS CLI is already installed
       env:
         BUCKET: ${{ secrets.OGSH_CONFIG_S3_BUCKET }}
         ENDPOINT: ${{ secrets.OGSH_CONFIG_S3_ENDPOINT }}
         REGION: ${{ secrets.OGSH_CONFIG_S3_REGION }}
         AWS_ACCESS_KEY_ID: ${{ secrets.OGSH_CONFIG_S3_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.OGSH_CONFIG_S3_SECRET_ACCESS_KEY }}
-      run: aws s3 sync ./configs s3://$BUCKET --delete --region $REGION --endpoint-url $ENDPOINT
+      run: aws s3 sync ./configs s3://ogsh-configs --delete --region $REGION --endpoint-url $ENDPOINT
