@@ -1,0 +1,13 @@
+{
+    "global": {
+        "perSegment": {
+            "gbp": 25
+        },
+        "perSlot": {
+            "gbp": 15
+        }
+    },
+    "app": {
+
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "configVersion": 1,
+    "api": {
+        "maxPaginatedResults": 100,
+        "appArchiveDownloadNoProgressTimeoutSeconds": 30
+    },
+    "container": {
+        "maxNameLength": 30
+    },
+    "daemon": {
+        "websocketReconnectSeconds": 3,
+        "websocketEventPushFrequencyMs": 1000,
+        "cooldownSecondsBetweenPullingSameDockerImage": 60,
+        "appInstallerImageWithBranch": "TODO",
+        "runtimeImagesBranch": "main",
+        "dockerRegistryUrl": "TODO",
+        "container": {
+            "stopTimeoutSeconds": 120,
+            "maxConcurrentInstalls": 2,
+            "maxWebsocketConnectionsPerContainerPerUser": 3,
+            "actionQueueMaxLength": 3,
+            "previousLogsToSendOnWebsocketConnect": 30,
+            "secondsBetweenStorageCalculations": 3
+        }
+    }
+}

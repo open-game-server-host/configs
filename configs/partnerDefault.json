@@ -1,0 +1,6 @@
+{
+    "containerMaxMemoryMb": 32768,
+    "containerCpuIncrement": 0.1875,
+    "containerMemoryMbIncrement": 128,
+    "containerStorageMbIncrement": 500
+}
