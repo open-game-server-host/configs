@@ -5,15 +5,16 @@
         "appArchiveDownloadNoProgressTimeoutSeconds": 30
     },
     "container": {
-        "maxNameLength": 30
+        "maxNameLength": 30,
+        "runtimesDockerRegistryUrlStub": "ghcr.io/open-game-server-host/container-runtimes/"
     },
     "daemon": {
         "websocketReconnectSeconds": 3,
         "websocketEventPushFrequencyMs": 1000,
         "cooldownSecondsBetweenPullingSameDockerImage": 60,
-        "appInstallerImageWithBranch": "TODO",
+        "appInstallerImageWithBranch": "ghcr.io/open-game-server-host/app-installer:main",
         "runtimeImagesBranch": "main",
-        "dockerRegistryUrl": "TODO",
+        "dockerRegistryAuthUrl": "TODO",
         "container": {
             "stopTimeoutSeconds": 120,
             "maxConcurrentInstalls": 2,
