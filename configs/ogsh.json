@@ -14,7 +14,7 @@
         "cooldownSecondsBetweenPullingSameDockerImage": 60,
         "appInstallerImageWithBranch": "ghcr.io/open-game-server-host/app-installer:main",
         "runtimeImagesBranch": "main",
-        "dockerRegistryAuthUrl": "TODO",
+        "dockerRegistryAuthUrl": "ghcr.io",
         "container": {
             "stopTimeoutSeconds": 120,
             "maxConcurrentInstalls": 2,
